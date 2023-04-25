@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="tts/xml">
+			<settings>
+			    <param name="log_level" value="4"/>
+				<param name="port" value="4452"/>
+			</settings>
+			
+			<services> 
+			
+			  <service id="1" tts_type="2">
+				<params>
+					<param name="addr" value="ws://172.26.50.105:8101/ws/v1"/>
+					<param name="voice_name" value="65040"/>
+					<param name="volume" value="50"/>
+					<param name="speed" value="0"/>
+					<param name="pitch" value="0"/>
+				</params>
+			  </service>
+			  
+			  <service id="2" tts_type="0">
+				<params>
+					<param name="addr" value="ws://172.26.50.105:8101/ws/v1"/>
+					<param name="voice_name" value="65040"/>
+					<param name="volume" value="50"/>
+					<param name="speed" value="0"/>
+					<param name="pitch" value="0"/>
+				</params>
+			  </service>
+			</services>
+
+</document>
